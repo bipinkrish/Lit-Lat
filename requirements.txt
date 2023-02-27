@@ -1,0 +1,12 @@
+# lit
+# https://github.com/libindic/indic-trans.git
+pbr
+six
+future
+cython>=0.24.0a0
+numpy>=1.10.4
+scipy>=0.13.3
+
+# lat
+translate==3.6.1
+googletrans==3.1.0a0
