@@ -4,10 +4,18 @@ Converts ```baa manege``` ([Romanized](https://en.wikipedia.org/wiki/Romanizatio
 
 ---
 
-## Credits/Uses
-* [indic-trans](https://github.com/libindic/indic-trans)
+## Dependency
+
 * [translate](https://github.com/terryyin/translate-python)
 * [googletrans](https://github.com/ssut/py-googletrans)
+* [python-Levenshtein](https://github.com/maxbachmann/python-Levenshtein)
+* [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
+
+---
+
+## Credits/Uses
+* [indic-trans](https://github.com/libindic/indic-trans)
+* [dictionaries](https://github.com/jishnu7/dictionaries)
 
 ---
 
