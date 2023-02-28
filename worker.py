@@ -1,10 +1,10 @@
 from fuzzywuzzy import fuzz
 import json
 
-with open("dictionary/kn.json", "r", encoding="utf-8") as f:
-    words = json.load(f)
+def get_file_contents(filename):
+    with open(filename, "r", encoding="utf-8") as f: return json.load(f)
 
-def get_closest_match(word, words_dict):
+def get_closest_matched_word(word, words_dict):
     best_match = None
     best_ratio = -1
     for key, value in words_dict.items():
@@ -18,8 +18,8 @@ def get_closest_match(word, words_dict):
             best_ratio = ratio
     return best_match
 
-
-# example usage
-query = "ಬಗ"
-closest_match = get_closest_match(query,words)
-print(f"Closest match for '{query}' is '{closest_match}'")
+def get_closest_match_for_sentence(src_text, from_file):
+    file_contents = get_file_contents(from_file)
+    text = ""
+    for word in src_text.split(): text += get_closest_matched_word(word, file_contents) + " "
+    return text

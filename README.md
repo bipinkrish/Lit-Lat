@@ -6,7 +6,6 @@ Converts ```baa manege``` ([Romanized](https://en.wikipedia.org/wiki/Romanizatio
 
 ## Dependency
 
-* [translate](https://github.com/terryyin/translate-python)
 * [googletrans](https://github.com/ssut/py-googletrans)
 * [python-Levenshtein](https://github.com/maxbachmann/python-Levenshtein)
 * [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
