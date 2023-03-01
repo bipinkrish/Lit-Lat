@@ -1,6 +1,20 @@
 # Lit-Lat (Transliterate + Translate)
 
-Converts ```baa manege``` ([Romanized](https://en.wikipedia.org/wiki/Romanization) Kannada) to ```ಬಾ ಮನೇಗೇ``` (Kannada) through the process [Transliteratation](https://en.wikipedia.org/wiki/Transliteration) and then to ```come home``` (English) through the process [Translation](https://en.wikipedia.org/wiki/Translation)
+_Converts Romanized Local Indian Language to its English Meaning_
+
+---
+
+Example Conversion :
+
+```baa manege``` ([Romanized](https://en.wikipedia.org/wiki/Romanization) Kannada)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &darr; [Transliteratation](https://en.wikipedia.org/wiki/Transliteration)
+
+```ಬಾ ಮನೇಗೇ``` (Kannada)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &darr; [Translation](https://en.wikipedia.org/wiki/Translation)
+
+```come home``` (English) 
 
 ---
 
