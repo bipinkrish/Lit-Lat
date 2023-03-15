@@ -2,7 +2,7 @@
 
 _Converts Romanized Local Indian Language to its English Meaning_
 
-### ⚠️ WARNING : Project is still in Development stage 
+### ⚠️ Project is still in Development stage 
 
 ---
 
@@ -28,7 +28,7 @@ Example Conversion :
 
 ---
 
-## Credits/Uses
+## Credits
 * [indic-trans](https://github.com/libindic/indic-trans)
 * [dictionaries](https://github.com/jishnu7/dictionaries)
 
